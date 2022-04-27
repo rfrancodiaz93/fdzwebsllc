@@ -87,7 +87,7 @@ body{
 .content-wrapper{
     background-color: rgba(100,100,100,0.5);
     box-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
-    border-radius: 8px;
+    border-radius: 10px !important;
     text-align: center;
     width: 80%;
     margin: 0 10%;
