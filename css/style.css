@@ -23,13 +23,13 @@ body{
 }
 
 /* bottom nav*/
-.bottom-nav{
+.top-nav{
     background-color:  rgba(100,100,100,0.5);
     text-align: center;
     width: 100%;
 
     position:fixed;
-    bottom: 0;
+    top: 0;
     left: 0;
 
     padding: 1% 0;
