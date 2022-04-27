@@ -78,7 +78,9 @@ body{
     font-size:2em;
     color: rgba(220,220,220,1);
     width: 40%;
-    margin-left: 50%;
+    margin-left: 70%;
+    background-color:orange;
+
 }
 
 /*content wrapper*/
