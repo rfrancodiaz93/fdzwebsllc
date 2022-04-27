@@ -48,8 +48,8 @@ body{
 .content-wrapper{
     background-color: rgba(100,100,100,0.5);
     text-align: center;
-    width: 90%;
-    margin: 0 5%;
+    width: 80%;
+    margin: 0 10%;
     padding: 5% 0;
 
     color: white;
@@ -61,6 +61,22 @@ body{
 }
 .text-wrapper {
 
+    width: 90%;
+    padding: 10% 5%;
+
+
+}
+
+.content-title{
+
+    font-size: 2em;
+
+}
+
+.content-para{
+
+    font-size: 1.2em;
+    
 }
 
 /*footer*/
