@@ -25,7 +25,7 @@ body{
 /* bottom nav*/
 .top-nav{
     background-color:  rgba(100,100,100,0.5)!important;
-    width: 40%;
+    width: 30%;
     position:fixed;
     top: 0;
     right: 5%;
@@ -64,7 +64,7 @@ body{
     width: 80%;
     margin: 0 0 0 10%;
     padding: 2% 0;
-    
+
 }
 
 .slogan{
