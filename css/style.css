@@ -65,6 +65,8 @@ body{
     font-size:4em;
     margin-bottom: 5%;
     color: rgba(240,240,240,1);
+    width: 80%;
+    margin: 0 0 0 10%;
 }
 
 .slogan{
