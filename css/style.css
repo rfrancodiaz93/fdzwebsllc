@@ -32,6 +32,8 @@ body{
     padding: 1% 0;
     
 }
+
+
 .anchors{
 
     display: inline-block;
@@ -46,6 +48,9 @@ body{
 
 }
 
+.anchors:hover{
+    background-color: rgba(200,200,200,0.6);
+}
 
 /*Showcase content*/
 .showcase-wrapper{
