@@ -100,8 +100,8 @@ body{
 }
 .text-wrapper {
 
-    width: 90%;
-    padding: 10% 5%;
+    width: 80%;
+    padding: 10% 10%;
 
 
 }
@@ -109,12 +109,15 @@ body{
 .content-title{
 
     font-size: 2em;
+    text-transform: uppercase;
 
 }
 
 .content-para{
 
     font-size: 1.2em;
+    width: 50%;
+    margin: 5% 25%;
 
 }
 
