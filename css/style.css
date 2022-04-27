@@ -1,0 +1,207 @@
+
+*{ 
+    padding: 0;
+    margin: 0;
+
+}
+
+html{
+    rgba(2,0,36,1);
+
+}
+
+body{
+    background-color: rgba(2,0,36,1);
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(32,30,110,1) 44%, rgba(0,212,255,1) 96%);
+
+}
+
+.container{
+    margin:0;
+    padding: 0;
+}
+
+/*Showcase content*/
+.showcase-wrapper{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    width: 100%;
+    padding: 5% 0 0 0 ;
+    
+}
+
+.site-title{
+    font-size:4em;
+    margin-bottom: 5%;
+    color: rgba(240,240,240,1);
+}
+
+.slogan{
+    font-size:2em;
+    color: rgba(220,220,220,1);
+
+}
+
+/*content wrapper*/
+.content-wrapper{
+    background-color: rgba(100,100,100,0.5);
+    text-align: center;
+    width: 90%;
+    margin: 0 5%;
+    padding: 5% 0;
+
+    color: white;
+
+}
+
+.content-image{
+
+}
+.text-wrapper {
+
+}
+
+/*footer*/
+footer{
+    padding: 4% 0 8% 0;
+    color: white;
+    text-align: center;
+
+
+}
+
+/* bottom nav*/
+.bottom-nav{
+    background-color:  rgba(100,100,100,0.5);
+    text-align: center;
+    width: 100%;
+
+    position:fixed;
+    bottom: 0;
+    left: 0;
+
+    padding: 1% 0;
+
+    margin: 0;
+    
+}
+.anchors{
+
+    display: inline-block;
+    margin-right: 2%;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.5), 5px 5px 5px rgba(0100,100,100, 0.5) inset;
+    
+    padding: 1%;
+    font-size:1em;
+    border-radius: 4px;
+
+}
+
+@media screen and (max-width: 700px) {
+
+
+    *{ 
+        padding: 0;
+        margin: 0;
+
+    }
+
+    html{
+        rgba(2,0,36,1);
+
+    }
+
+    body{
+        background-color: rgba(2,0,36,1);
+        background: rgb(2,0,36);
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(32,30,110,1) 44%, rgba(0,212,255,1) 96%);
+
+    }
+
+    .container{
+        margin:0;
+        padding: 0;
+    }
+
+    /*Showcase content*/
+    .showcase-wrapper{
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        width: 100%;
+        padding: 5% 0 0 0 ;
+        
+    }
+
+    .site-title{
+        font-size:4em;
+        margin-bottom: 5%;
+        color: rgba(240,240,240,1);
+    }
+
+    .slogan{
+        font-size:2em;
+        color: rgba(220,220,220,1);
+
+    }
+
+    /*content wrapper*/
+    .content-wrapper{
+        background-color: rgba(100,100,100,0.5);
+        text-align: center;
+        width: 90%;
+        margin: 0 5%;
+        padding: 5% 0;
+
+        color: white;
+
+    }
+
+    .content-image{
+
+    }
+    .text-wrapper {
+
+    }
+
+    /*footer*/
+    footer{
+        padding: 4% 0 20% 0;
+        color: white;
+        text-align: center;
+
+
+    }
+
+    /* bottom nav*/
+    .bottom-nav{
+        background-color:  rgba(100,100,100,0.5);
+        text-align: center;
+        width: 100%;
+
+        position:fixed;
+        bottom: 0;
+        left: 0;
+
+        padding: 4% 0;
+
+        margin: 0;
+        
+    }
+    .anchors{
+
+        display: inline-block;
+        margin-right: 2%;
+        color: white;
+        box-shadow: 5px 5px 5px rgba(0,0,0, 0.5), 5px 5px 5px rgba(0100,100,100, 0.5) inset;
+        height: 20px;
+        padding: 2%;
+        font-size:1.2em;
+        border-radius: 4px;
+
+    }
+
+}
