@@ -22,6 +22,35 @@ body{
     padding: 0;
 }
 
+/* bottom nav*/
+.bottom-nav{
+    background-color:  rgba(100,100,100,0.5);
+    text-align: center;
+    width: 100%;
+
+    position:fixed;
+    bottom: 0;
+    left: 0;
+
+    padding: 1% 0;
+
+    margin: 0;
+    
+}
+.anchors{
+
+    display: inline-block;
+    margin-right: 2%;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.5), 5px 5px 5px rgba(0100,100,100, 0.5) inset;
+    
+    padding: 1%;
+    font-size:1em;
+    border-radius: 4px;
+
+}
+
+
 /*Showcase content*/
 .showcase-wrapper{
     width: 100%;
@@ -90,33 +119,6 @@ footer{
 
 }
 
-/* bottom nav*/
-.bottom-nav{
-    background-color:  rgba(100,100,100,0.5);
-    text-align: center;
-    width: 100%;
-
-    position:fixed;
-    bottom: 0;
-    left: 0;
-
-    padding: 1% 0;
-
-    margin: 0;
-    
-}
-.anchors{
-
-    display: inline-block;
-    margin-right: 2%;
-    color: white;
-    box-shadow: 5px 5px 5px rgba(0,0,0, 0.5), 5px 5px 5px rgba(0100,100,100, 0.5) inset;
-    
-    padding: 1%;
-    font-size:1em;
-    border-radius: 4px;
-
-}
 
 @media screen and (max-width: 700px) {
 
