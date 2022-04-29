@@ -182,8 +182,8 @@ nav{
 }
 
 .wrapper{
-    width: 40%;
-    margin: 0 0 0 50%;
+    width: 50%;
+    margin: 0 0 0 40%;
     display: flex;
     padding: 2% 0;
 }
