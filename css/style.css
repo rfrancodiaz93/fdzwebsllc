@@ -41,7 +41,6 @@ body{
 
     margin-bottom: 5%;
 
-    display: relative;
 }
 
 
@@ -88,6 +87,10 @@ nav{
     box-shadow: 5px 5px 5px rgba(0,0,0, 0.5), 5px 5px 5px rgba(250,250,250, 0.5) inset;
     border-radius: 5px;
 }
+
+.porfolio{
+        border: 2px solid rgba(200, 200, 200, 0.1);
+    }
 
 /* endd */
 
@@ -231,15 +234,16 @@ footer{
     }
 
     html{
-        rgba(2,0,36,1);
+       background-color: rgba(2,0,36,1);
 
     }
 
     body{
         background-color: rgba(2,0,36,1);
         background: rgb(2,0,36);
-        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(32,30,110,1) 44%, rgba(0,212,255,1) 96%);
+        background: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(32,30,110,1) 44%, rgba(2,0,36,1) 96%);
 
+        display: relative;
     }
 
     .container{
@@ -247,82 +251,252 @@ footer{
         padding: 0;
     }
 
+
+
     /*Showcase content*/
     .showcase-wrapper{
-        width: 100%;
-        height: 300px;
-        text-align: center;
-        width: 100%;
-        padding: 5% 0 0 0 ;
         
+        width: 100%;
+        height: 700px;
+
+        padding: 0;
+        margin-bottom: 5%;
+
+        text-align: left;
+
+        background-color: orange ;
+        background-image: url('../imgs/portrait_forest.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+
     }
 
+
+    /*  navigation styling */
+    .empty{
+        display: block;
+        height: 0;
+    }
+
+    .nav-wrapper{
+        width: 100%;
+        background-color: rgba(50, 50, 50, 0.7);
+
+        position: fixed;
+        bottom: 0;
+        left: 0;
+       backdrop-filter: blur(12px);
+       -webkit-backdrop-filter: blur(12px);
+
+        z-index: 3 !important;
+    }
+
+
+    nav{
+        /*background-color:  rgba(100,100,100,0.5)!important;*/
+       width: 100%;
+       padding: 0;
+       margin: 0;
+
+       display: flex;
+
+
+    }
+
+
+    .anchors{
+
+
+        display: inline-block;
+        font-size:1.3em;
+        text-decoration: none;
+        color: orange;
+        text-transform: uppercase;
+        
+    
+
+    }
+
+    .porfolio{
+        border: 2px solid rgba(200, 200, 200, 0.1);
+    }
+
+
+    .anchors:hover{
+       
+        background-color: rgba(150,150,150,0.6);
+        color: rgba(220, 220, 220, 1.0);
+        box-shadow: 5px 5px 5px rgba(0,0,0, 0.5), 5px 5px 5px rgba(250,250,250, 0.5) inset;
+        border-radius: 5px;
+
+    }
+
+    /* endd of nav*/
+
+
+    /*showcase header styling*/
     .site-title{
-        font-size:4em;
-        margin-bottom: 5%;
-        color: rgba(240,240,240,1);
+
+        font-size:2.5em;
+        text-align: center;
+        color: orange;
+        
+        margin: 0 0 5% 0;
+        padding: 2% 0 2% 0;
+        
+        width: 100%;
+        background-color: rgba(50, 50, 50, 0.5);
+        backdrop-filter: blur(12px);
+       -webkit-backdrop-filter: blur(12px);
+
     }
 
     .slogan{
-        font-size:2em;
+        
+        font-size:1em;
         color: rgba(220,220,220,1);
+        width: 80%;
+        margin: 0 0 0 10%;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, 0.2);
 
+    }
+
+
+    .contact{
+        
+        width: 100%;
+        background-color: rgba(0,0,0,0);
+
+        padding: 40% 0 0 0;
+    }
+
+    /*contact information styling */
+
+    .wrapper{
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;        
+
+        margin: 0 0 0 0;
+        padding: 0;
+        
+    }
+
+    .links{
+       
+        display: block;
+        width: 80%;
+
+        margin: 0 10% 5% 10%;
+        padding: 5% 0;
+
+        font-size: 0.8em;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        font-weight: normal;
+        color: white;
+
+        border: 2px solid rgba(200, 200, 200, 0.5);
+        border-radius: 8px;    
+
+        background-color: rgba(50, 50, 50, 0.5);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+
+
+    }
+
+    .links:hover{
+        color: orange;
+        background-color: rgba(150, 150, 150, 0.5);
+
+    }
+
+    .links:visited{
+        color: white;
+        background-color: rgba(50, 50, 50, 0.5);
+    }
+
+    .email{
+        
+    }
+
+
+
+
+    .tech-wrap{
+        width: 100%;
+        display: flex;
+
+        flex-direction: column;
+
+        background-color: rgba(100,100,100,0.5);
+        box-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
     }
 
     /*content wrapper*/
     .content-wrapper{
-        background-color: rgba(100,100,100,0.5);
         text-align: center;
-        width: 90%;
-        margin: 0 5%;
-        padding: 5% 0;
 
         color: white;
-
     }
 
-    .content-image{
+    .article2{
+    }
 
+
+
+    .content-image{
+        width: 100px;
+        height: 100px;
+
+        padding: 2%;
+        padding-top: 8%;
+        
     }
     .text-wrapper {
 
+        width: 80%;
+        padding: 10% 10%;
+
+
     }
+
+    .content-title{
+
+        text-transform: uppercase;
+        font-size: 1.5em;
+
+    }
+
+    .content-para{
+
+        width: 80%;
+        margin: 5% 10%;
+        font-size: 1.3em;
+        line-height: 1.5;
+
+
+    }
+
+  
 
     /*footer*/
     footer{
-        padding: 4% 0 20% 0;
+        padding: 4% 0 1% 0;
         color: white;
         text-align: center;
 
 
     }
 
-    /* bottom nav*/
-    .bottom-nav{
-        background-color:  rgba(100,100,100,0.5);
-        text-align: center;
-        width: 100%;
+    .footer-text{
 
-        position:fixed;
-        bottom: 0;
-        left: 0;
-
-        padding: 4% 0;
-
-        margin: 0;
-        
+        margin-bottom: 16%;
     }
-    .anchors{
-
-        display: inline-block;
-        margin-right: 2%;
-        color: white;
-        box-shadow: 5px 5px 5px rgba(0,0,0, 0.5), 5px 5px 5px rgba(0100,100,100, 0.5) inset;
-        height: 20px;
-        padding: 2%;
-        font-size:1.2em;
-        border-radius: 4px;
-
-    }
-
 }
